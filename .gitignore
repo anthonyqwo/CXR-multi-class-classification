@@ -1,0 +1,36 @@
+# environments, caches
+.venv/
+__pycache__/
+cache/
+devnull
+
+# competition data and course material (not mine to redistribute)
+data/
+*.zip
+spec.pdf
+test_data_sample.csv
+
+# training outputs: checkpoints, predictions, frozen embeddings
+runs/
+submissions/
+features/*
+!features/lung_boxes.csv
+*.pt
+*.pth
+*.npy
+*.npz
+
+# working notes and the report documents (the report is submitted on E3)
+PROGRESS.md
+report/REPORT_SUMMARY.md
+report/*.pdf
+report/report.html
+report/report.tex
+report/html2tex.py
+report/*.aux
+report/*.log
+report/*.out
+
+# figures no longer used by the report
+report/figs/reid_evolution.png
+report/figs/knn.png
